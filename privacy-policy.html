@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidad · Pankratium</title>
+  <style>
+    body { background:#0A0A0A; color:#E5E2E1; font-family:system-ui,-apple-system,sans-serif;
+           margin:0; padding:24px; line-height:1.6; }
+    main { max-width:760px; margin:0 auto; font-size:15px; }
+    h1,h2,h3 { line-height:1.2; }
+    h1 { font-size:28px; } h2 { font-size:22px; margin-top:32px; } h3 { font-size:18px; margin-top:24px; }
+    a { color:#39FF14; }
+    blockquote { border-left:4px solid #39FF14; margin:16px 0; padding:4px 16px; }
+    table { border-collapse:collapse; width:100%; margin:16px 0; display:block; overflow-x:auto; }
+    th,td { border:1px solid #444; padding:8px; text-align:left; vertical-align:top; }
+    hr { border:0; border-top:2px solid #444; margin:32px 0; }
+  </style>
+</head>
+<body><main><h1>Política de Privacidad de Pankratium</h1>
+<p><strong>Última actualización:</strong> 18 de noviembre de 2026 <strong>Versión:</strong> 1.5</p>
+<blockquote><p>Este documento describe con exactitud lo que la aplicación hace hoy (verificado contra el código: esquema de base de datos, almacenamiento en dispositivo y servicios de terceros integrados). Lo que <strong>no</strong> puede hacer es sustituir a una revisión legal: Pankratium trata datos de salud (lesiones), que el RGPD clasifica como categoría especial, y eso conviene que lo valide alguien con criterio jurídico antes de publicar en una tienda.</p></blockquote>
+<hr>
+<h2>1. Quién es el responsable del tratamiento</h2>
+<ul><li><strong>Responsable:</strong> Luis Muñoz de la Cruz, trabajador autónomo (persona física), que explota la aplicación Pankratium</li><li><strong>NIF:</strong> 46851762A</li><li><strong>Domicilio:</strong> Plaza España 10, 28231 Las Rozas, España</li><li><strong>Contacto:</strong> lynx-logica@proton.me</li><li><strong>Teléfono:</strong> +34 626 258 026</li></ul>
+<p>Si resides en la Unión Europea, puedes presentar una reclamación ante la autoridad de protección de datos de tu país. En España es la Agencia Española de Protección de Datos (AEPD), <a href="https://www.aepd.es">www.aepd.es</a>.</p>
+<h2>2. Qué datos recogemos y para qué</h2>
+<h3>2.1 Datos de cuenta</h3>
+<table><thead><tr><th>Dato</th><th>Para qué</th><th>Base legal (RGPD)</th></tr></thead><tbody><tr><td>Nombre de usuario</td><td>Identificarte dentro de la app</td><td>Art. 6.1.b — ejecución del contrato</td></tr><tr><td>Correo electrónico</td><td>Recuperación de contraseña y avisos de servicio</td><td>Art. 6.1.b</td></tr><tr><td>Contraseña</td><td>Autenticación. <strong>Nunca se almacena en claro:</strong> se guarda un hash bcrypt, irreversible</td><td>Art. 6.1.b</td></tr><tr><td>Nivel de suscripción y cuota de uso</td><td>Aplicar los límites del plan gratuito y el acceso a PRO</td><td>Art. 6.1.b</td></tr></tbody></table>
+<p>Si inicias sesión con <strong>Google</strong> (o con <strong>Microsoft</strong>, cuando ese proveedor esté activo) en vez de registrarte con usuario y contraseña, recibimos de ese proveedor tu <strong>email verificado</strong> y tu <strong>nombre de usuario o perfil público</strong> para crear o vincular tu cuenta — son los mismos datos de la tabla anterior, solo que su origen es el proveedor social en vez de un formulario. No accedemos a ninguna otra información de tu cuenta de Google o Microsoft, ni a tu contraseña en ese servicio.</p>
+<h3>2.2 Datos de entrenamiento y perfil deportivo</h3>
+<p>Si eres usuario PRO y decides rellenar tu perfil, guardamos: <strong>objetivo deportivo</strong>, <strong>material disponible</strong>, <strong>fecha de combate</strong> y <strong>lesiones o zonas a evitar</strong>.</p>
+<blockquote><p><strong>Aviso específico sobre las lesiones.</strong> La información sobre lesiones es un <strong>dato de salud</strong> y, por tanto, una <strong>categoría especial de datos</strong> conforme al <strong>artículo 9 del RGPD</strong>. Su tratamiento requiere tu <strong>consentimiento explícito</strong>, que otorgas de forma voluntaria al introducir ese dato: el campo es <strong>opcional</strong> y la aplicación funciona sin él. Lo usamos con una única finalidad —que el plan de entrenamiento generado evite ejercicios contraindicados para ti— y <strong>nunca</strong> con fines publicitarios, de elaboración de perfiles comerciales ni de cesión a terceros distintos de los enumerados en la sección 4.</p><p>Base legal: <strong>Art. 9.2.a — consentimiento explícito</strong>. Puedes retirarlo en cualquier momento borrando el contenido del campo, sin que ello afecte a la licitud del tratamiento previo.</p></blockquote>
+<p><strong>Historial de planes.</strong> Guardamos cada plan semanal que generas (su contenido, nivel, estilo, días, minutos y fase) para que puedas consultarlo desde "Ver mis planes". Conservamos los últimos 50. Si eres PRO, ese contenido puede reflejar las adaptaciones derivadas de tu perfil (por ejemplo, ejercicios evitados por una lesión declarada). Se borra con tu cuenta.</p>
+<p><strong>Fondo común anónimo.</strong> Los planes generados en la versión gratuita no contienen ningún dato de tu perfil ni identificador alguno: son función únicamente de nivel, estilo, días, minutos y fase. Una copia de cada uno se conserva de forma anónima para reutilizarla con otros usuarios que pidan exactamente la misma configuración esa misma semana. No es posible asociar esas copias a tu persona, y por eso no se ven afectadas por el borrado de tu cuenta.</p>
+<p><strong>Calendario del plan.</strong> Para que tu plan viva en un calendario real guardamos las fechas asignadas a cada día del plan actual, los días de la semana en que prefieres entrenar, qué días has completado o saltado y, si la indicas, tu <strong>fecha de combate</strong> — este último dato se guarda ahora para todos los usuarios, no solo PRO. Son fechas, no datos de salud. Se borran con tu cuenta.</p>
+<h3>2.3 Datos almacenados únicamente en tu dispositivo</h3>
+<p>Estos <strong>nunca</strong> salen de tu teléfono ni llegan a nuestros servidores:</p>
+<ul><li><strong>Historial de entrenamiento</strong> (últimas 200 sesiones: fecha, duración, nivel, estilo y porcentaje completado), guardado en el almacenamiento local de la app.</li><li><strong>Tokens de sesión</strong>, guardados en el almacén seguro del sistema operativo (Keychain en iOS, Keystore en Android).</li></ul>
+<p>Al desinstalar la aplicación, estos datos desaparecen con ella. <strong>Cerrar sesión no los borra</strong>: el historial y el último plan quedan en el teléfono, bajo claves ligadas al identificador de tu cuenta, para que sigan ahí cuando vuelvas a entrar (también sin conexión). Solo se borran al <strong>borrar la cuenta</strong> o al desinstalar. Si compartes el teléfono con otra persona, bórrala desde Mi cuenta antes de prestárselo.</p>
+<h3>2.4 Datos que NO recogemos</h3>
+<p>Para que quede explícito: Pankratium <strong>no</strong> recoge tu ubicación geográfica, <strong>no</strong> accede a tu cámara, micrófono, contactos ni galería, y <strong>no</strong> utiliza el sensor de proximidad para recoger dato alguno — ese sensor se usa exclusivamente en tiempo real para el control sin manos del cronómetro, y sus lecturas no se almacenan ni se transmiten en ningún momento.</p>
+<h2>3. Publicidad</h2>
+<p>La versión gratuita muestra anuncios intersticiales a través de <strong>Google AdMob</strong>. AdMob puede acceder al identificador de publicidad de tu dispositivo y a datos sobre tu interacción con los anuncios, conforme a su propia política. Puedes restablecer o limitar ese identificador desde los ajustes de tu dispositivo (*Ajustes → Privacidad → Anuncios* en Android; *Ajustes → Privacidad y seguridad → Publicidad de Apple* en iOS).</p>
+<p><strong>El plan PRO elimina por completo los anuncios.</strong></p>
+<p>Política de privacidad de Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
+<h2>4. Con quién compartimos datos</h2>
+<p>No vendemos tus datos. Los compartimos únicamente con los proveedores necesarios para que el servicio funcione:</p>
+<table><thead><tr><th>Proveedor</th><th>Qué recibe</th><th>Para qué</th><th>Ubicación</th></tr></thead><tbody><tr><td><strong>Neon</strong></td><td>Datos de cuenta, perfil e historial de planes</td><td>Base de datos</td><td>UE (Frankfurt, Alemania — AWS `eu-central-1`)</td></tr><tr><td><strong>Render</strong></td><td>Tráfico de la API</td><td>Alojamiento del servidor</td><td>EE. UU. (Oregon)</td></tr><tr><td><strong>Groq</strong></td><td>Nivel, estilo, fecha de combate (si la indicas) y un resumen de tu último plan semanal (fecha, nivel, estilo, días por semana, minutos por sesión y nombres de los bloques)</td><td>Generar el plan anual con IA</td><td>EE. UU.</td></tr><tr><td><strong>Resend</strong></td><td>Tu correo electrónico</td><td>Enviar el email de recuperación de contraseña</td><td>EE. UU.</td></tr><tr><td><strong>Google AdMob</strong></td><td>Identificador de publicidad</td><td>Mostrar anuncios (solo versión gratuita)</td><td>EE. UU.</td></tr><tr><td><strong>Sentry</strong></td><td>Trazas de error técnicas (sin cabeceras de autenticación, cookies, cuerpo de petición ni datos de usuario — filtrados antes de enviarse)</td><td>Monitorización de errores del servidor</td><td>UE (Frankfurt, Alemania)</td></tr><tr><td><strong>Upstash (Redis)</strong></td><td>El plan de entrenamiento generado (no las lesiones en sí, aunque el plan se haya adaptado a partir de ellas)</td><td>Caché temporal para no regenerar el mismo plan dos veces</td><td>EE. UU. (Oregon)</td></tr></tbody></table>
+<p><strong>Transferencias internacionales.</strong> Algunos de estos proveedores están en Estados Unidos. Dichas transferencias se amparan en las Cláusulas Contractuales Tipo de la Comisión Europea y/o en el Data Privacy Framework UE-EE. UU., según el proveedor.</p>
+<blockquote><p><strong>Importante sobre la IA:</strong> al generar un plan anual se envían a Groq tu nivel, estilo de combate, la fecha de combate si la has indicado y un resumen de tu último plan semanal (su estructura y los nombres de sus bloques), junto con fragmentos de nuestra base de técnicas, que no son datos personales. <strong>Las lesiones que hayas indicado no se envían como dato.</strong> Si un plan semanal se adaptó a una lesión, los nombres de sus bloques podrían reflejarlo de forma indirecta. <strong>No</strong> se envía tu nombre, tu correo ni ningún identificador que permita asociar esos datos a tu persona.</p></blockquote>
+<h2>5. Cuánto tiempo conservamos los datos</h2>
+<table><thead><tr><th>Dato</th><th>Conservación</th></tr></thead><tbody><tr><td>Cuenta y perfil</td><td>Mientras la cuenta exista</td></tr><tr><td>Tokens de recuperación de contraseña</td><td>1 hora</td></tr><tr><td>Tokens de sesión (refresh)</td><td>30 días, o hasta que cierres sesión</td></tr><tr><td>Caché de planes generados</td><td>24 horas</td></tr><tr><td>Historial de planes</td><td>Últimos 50, mientras la cuenta exista</td></tr><tr><td>Fondo común anónimo de planes gratuitos</td><td>Indefinido (no contiene datos personales)</td></tr><tr><td>Plan anual</td><td>1 año desde su generación</td></tr></tbody></table>
+<h2>6. Tus derechos</h2>
+<p>Conforme al RGPD, tienes derecho a <strong>acceder</strong> a tus datos, <strong>rectificarlos</strong>, <strong>suprimirlos</strong>, <strong>limitar</strong> u <strong>oponerte</strong> a su tratamiento, a la <strong>portabilidad</strong>, y a <strong>retirar tu consentimiento</strong> en cualquier momento.</p>
+<p><strong>Cómo ejercerlos:</strong> escribe a lynx-logica@proton.me desde la dirección de correo asociada a tu cuenta. Responderemos en un plazo máximo de <strong>30 días</strong>.</p>
+<h3>Borrado de cuenta</h3>
+<p>Puedes eliminar tu cuenta y todos los datos asociados <strong>en cualquier momento y sin intermediarios</strong>, desde la propia aplicación: pantalla <strong>Mi cuenta</strong> (icono ◍ en la cabecera) → <strong>BORRAR CUENTA</strong>.</p>
+<p>Por seguridad se te pedirá una confirmación deliberada, para que un teléfono desbloqueado o una sesión robada no basten para destruir tu cuenta:</p>
+<ul><li>Si te registraste con usuario y contraseña, <strong>reintroduces tu contraseña</strong>.</li><li>Si entraste con Google no tienes contraseña en Pankratium, así que <strong>escribes tu nombre de usuario</strong> para confirmar.</li></ul>
+<p>En ambos casos hay que pulsar el botón dos veces.</p>
+<p>El borrado es <strong>inmediato, permanente e irreversible</strong>, y elimina:</p>
+<ul><li>Tu cuenta (usuario, correo y contraseña)</li><li>Tu perfil deportivo completo, <strong>incluidas las lesiones</strong></li><li>Tus planes anuales generados</li><li>Tu historial de planes semanales</li><li>Todas tus sesiones activas y tokens de recuperación pendientes</li></ul>
+<p>Tu historial de entrenamiento nunca estuvo en nuestros servidores —vive solo en tu teléfono—, así que desaparece al desinstalar la aplicación.</p>
+<p>Si prefieres no hacerlo tú, escribe a lynx-logica@proton.me con el asunto <strong>"Borrar cuenta"</strong> y lo haremos por ti en un máximo de 30 días.</p>
+<h2>7. Seguridad</h2>
+<ul><li>Todo el tráfico entre la app y el servidor viaja cifrado por <strong>HTTPS</strong>.</li><li>Las contraseñas se almacenan como <strong>hash bcrypt</strong>, nunca en texto plano.</li><li>Los tokens de sesión se guardan en el <strong>almacén seguro del sistema operativo</strong>, no en almacenamiento ordinario.</li><li>Los tokens de sesión <strong>rotan</strong>: al renovarse, el anterior queda invalidado.</li><li>El acceso a la API está limitado por <strong>rate limiting</strong> para dificultar ataques de fuerza bruta.</li></ul>
+<p>Ningún sistema es invulnerable, pero estas son las medidas que aplicamos.</p>
+<h2>8. Menores de edad</h2>
+<p>Pankratium <strong>no está dirigida a menores de 14 años</strong> y no recogemos conscientemente sus datos. Si detectamos una cuenta de un menor de esa edad sin consentimiento de sus tutores, la eliminaremos. Si eres madre, padre o tutor y crees que tu hijo o hija nos ha facilitado datos, escríbenos.</p>
+<h2>9. Cambios en esta política</h2>
+<p>Si modificamos esta política, actualizaremos la fecha del encabezado. Si los cambios son sustanciales, te avisaremos dentro de la aplicación.</p>
+<h2>10. Contacto</h2>
+<p>lynx-logica@proton.me</p></main></body>
+</html>
